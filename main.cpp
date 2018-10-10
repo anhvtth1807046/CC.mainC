@@ -27,13 +27,13 @@ int main() {
         printf("c phải lớn hơn 0.\n");
         printf("Vui lòng nhập lại.\n");
     } else if (a >= b + c) {
-        printf("Một cạnh phải lớn hơn tổng hia cạnh còn lại\n");
+        printf("Một cạnh phải lớn hơn tổng hai cạnh còn lại\n");
         printf("vui lòng nhập lại.\n");
     } else if (b >= a + c) {
-        printf("Một cạnh phải lớn hơn tổng hia cạnh còn lại\n");
+        printf("Một cạnh phải lớn hơn tổng hai cạnh còn lại\n");
         printf("vui lòng nhập lại.\n");
     } else if (c >= a + b) {
-        printf("Một cạnh phải lớn hơn tổng hia cạnh còn lại\n");
+        printf("Một cạnh phải lớn hơn tổng hai cạnh còn lại\n");
         printf("vui lòng nhập lại.\n");
     }
     printf("Nửa chu vi tam giác = %.3lf\n", nuaChuViTamGiac(a, b, c));
